@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuAbout"
+        android:title="Choose One Option" />
+
+    <item
+        android:id="@+id/menuSettings"
+        android:title="Settings" />
+
+    <item
+        android:id="@+id/menuLogout"
+        android:title="Logout" />
+   <!-- <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/filter_favorite"
+            android:title="Favorites"
+            android:checked="true"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/filter_myProject"
+            android:title="My Projects"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/filter_completed"
+            android:title="Completed"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/filter_all"
+            android:title="All Projects"
+            app:showAsAction="never"/>
+
+    </group>-->
+</menu>
